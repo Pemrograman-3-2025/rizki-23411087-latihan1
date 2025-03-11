@@ -2,46 +2,76 @@
 
 <head>
     <title>Input HTML</title>
-    
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <style>
-    .submit-btn {
-        background-color: #ff4646;
-        border: none
-    }
 
-    #back-btn {
-        background-color: aquamarine;
-        border: none
-    }
+
 </style>
 
 <body>
+
+    <a href="index.html">
+        <button class="back-btn" type="button">Balik ah</button>
+    </a>
     <form action="">
-        <input required placeholder="Masukkan Nama" type="text">
-        <input placeholder="Masukkan Password" type="password">
-        <input placeholder="Masukkan Nomor" type="number">
-        <input type="file" accept="image/png, image/jpeg">
-        <input type="text">
+        <h1>Daftar Akun</h1>
+        <div class="column">
+        <label for="username">Username</label>
+        <input id="username" required placeholder="Masukkan username" type="text">
+        </div>
+        <div class="column">
+        <label for="password">Password</label>
+        <input id="password" placeholder="Masukkan Password" type="password">
+    </div>
+        <div class="column">
+            <label for="telp">Nomor Telp</label>
+            <input id="telp" required placeholder="Masukkan nomor telp" type="number">
+        </div>
+        <div class="column">
+            <label for="file">Upload profile picture</label>
+            <input id="file" type="file" accept="image/png, image/jpeg" />
+        </div>
 
-        <select name="" id="">
-            <option value="">Makan</option>
-            <option value="">Tidur</option>
-        </select>
 
-        <input type="radio" name="satu" id=""> Makan
-        <input type="radio" name="dua" id=""> Tidur
-        <br />
-        <input type="checkbox" name="" id=""> Makan
-        <input type="checkbox" name="" id=""> Tidur
-        <input type="checkbox" name="" id=""> Tidur Lagi
-        <button style="border-radius: 24px;" class="submit-btn" type="submit">Submit</button>
+        <div class="column">
+            <label for="hobby">Hobby</label>
+
+            <select name="" id="hobby">
+
+                <option value="">Makan</option>
+                <option value="">Tidur</option>
+            </select>
+        </div>
+
+        <div class="column">
+
+            <label for="hobby">Kegiatan Favorit</label>
+            <div class="select">
+                <input type="radio" name="satu" id=""> Makan
+                <input type="radio" name="dua" id=""> Tidur
+            </div>
+        </div>
+
+
+        <div class="column">
+            <label for="hobby">Hal yang paling disuka</label>
+
+            <div class="checkbox">
+                <input type="checkbox" name="" id=""> Makan
+                <input type="checkbox" name="" id=""> Tidur
+                <input type="checkbox" name="" id=""> Tidur Lagi
+            </div>
+        </div>
+
+
+
+        <button style="border-radius: 24px;" class="input-btn" type="submit">Submit</button>
+
 
     </form>
-    <a href="index.html">
-        <button id="back-btn" type="button">Balik ah</button>
-    </a>
+
 </body>
 
 </html>
