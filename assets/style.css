@@ -1,0 +1,61 @@
+.back-btn {
+  background-color: #bcba43;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 24px;
+  margin-top: 24px;
+}
+.back-btn:hover {
+  background-color: #b9b726;
+}
+.input-btn {
+  background-color: #45bb8f;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 24px;
+  margin-top: 24px;
+}
+.input-btn:hover {
+  background-color: #26b979;
+}
+
+
+.table{
+    border-collapse: collapse;
+
+}
+
+.table th, td {
+    padding: 8px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.table tr:hover {
+    background-color: #e7e7e7;
+}
+
+.table .edit {
+    background-color: #c4b440;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 24px;
+    
+}
+.table .delete {
+    background-color: #af2727;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 24px;
+    
+}
