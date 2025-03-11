@@ -1,3 +1,7 @@
+body{
+  width: 50%;
+  margin: auto;
+}
 .back-btn {
   background-color: #bcba43;
   border: none;
@@ -26,8 +30,7 @@
 }
 
 form{
-  width: 50%;
-  margin: auto;
+  
   background-color: #b7ffe0;
   padding: 24px;
   border-radius: 16px;
@@ -48,6 +51,9 @@ display: flex;
 
 } */
 
+table{
+  width: 100%;
+}
 .table{
     border-collapse: collapse;
 
